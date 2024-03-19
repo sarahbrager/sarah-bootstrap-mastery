@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-  <title>Bootstrap 5 Layout</title>
+  <title>Pirate Cove Index Page</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" id="jumbotron">
+    <header class="my-4 p-5">
+      <h1 class="display-4">Ship's Log</h1>
+      <p class="lead">A diary by Capt. Crit 'Red Beard' McGuillicutty</p>
+    </header>
+  </div>
+
   <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6">
+          <h2>Thar be monsters in the sea</h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="img/pirate-photos/kraken01.jpg" class="card-img-top" alt="Kraken 1 art">
+        <div class="card-body">
+          <h5 class="card-title">Nelson</h5>
+          <p class="card-text">Cutlass run a rig case shot fluke six pounders red ensign bilge water handsomely killick crimp.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/pirate-photos/kraken02.jpg" class="card-img-top" alt="Kraken 2 art">
+        <div class="card-body">
+          <h5 class="card-title">Barbara</h5>
+          <p class="card-text">Brig boom to go on account lateen sail black jack Admiral of the Black yard dance the hempen jig skysail grog blossom.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="img/pirate-photos/kraken03.jpg" class="card-img-top" alt="Kraken 3 art">
+        <div class="card-body">
+          <h5 class="card-title">Spike</h5>
+          <p class="card-text">Spike lee topgallant rutters Cat o'nine tails dance the hempen jig spanker barkadeer belaying pin swing the lead.</p>
+        </div>
+      </div>
+    </div>
 
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.min.js"></script>

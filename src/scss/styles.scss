@@ -23,4 +23,10 @@
 // Import partials:
 
 // Custom styles:
-
+#jumbotron {
+    background: url(../img/pirate-photos/pirate-ship.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
