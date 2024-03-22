@@ -23,13 +23,31 @@
 // Import partials:
 
 // Custom styles:
+#navbar {
+    ul {
+        list-style-type: none;
+      
+        a:hover {
+        text-decoration: underline;
+      }
+
+    }
+}
+
 #jumbotron {
     background: url(../img/pirate-photos/pirate-ship.jpg);
     background-repeat: none;
     background-size: cover;
     background-position: center;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Papyrus, Copperplate, "Lucida Handwriting";
+    font-weight: bolder;
+    color: white;
+}
+
+#figure {
+    font-weight: bold;
+    font-style: italic;
 }
 
 #footer {
